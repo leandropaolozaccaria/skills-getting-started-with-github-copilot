@@ -137,49 +137,72 @@ button:hover {
 }
 
 .participants-section {
-  margin-top: 10px;
-  padding-top: 8px;
-  border-top: 1px solid #eee;
+  margin-top: 12px;
+  padding: 12px;
+  border: 1px solid #d8e0ff;
+  border-radius: 10px;
+  background: linear-gradient(180deg, #f9fbff 0%, #f2f6ff 100%);
+}
+
+.participants-title {
+  margin-bottom: 8px;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: #304a9c;
 }
 
 .participants-list {
   list-style: none;
-  margin: 6px 0 0 0;
-  padding: 0;
+  margin: 0;
+  padding-left: 0;
 }
 
 .participants-list li {
+  padding: 4px 0;
+  font-size: 14px;
+  color: #2f3a56;
+}
+
+.participant-row {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 3px 0;
-  font-size: 14px;
-  color: #555;
+  gap: 10px;
+  margin-left: 2px;
+}
+
+.participant-email {
+  overflow-wrap: anywhere;
 }
 
 .no-participants {
   font-size: 14px;
-  color: #999;
-  margin: 4px 0 0 0;
+  color: #6a769b;
+  margin: 0;
+  font-style: italic;
 }
 
 .unregister-btn {
-  background: none;
-  border: none;
+  background: #ffe9e9;
+  border: 1px solid #ffb8b8;
   cursor: pointer;
-  padding: 0 4px;
-  font-size: 14px;
-  color: #c62828;
-  line-height: 1;
-  transition: transform 0.1s;
+  padding: 3px 8px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #8f1f1f;
+  border-radius: 999px;
+  line-height: 1.2;
+  transition: background-color 0.2s, transform 0.1s;
 }
 
 .unregister-btn:hover {
-  background: none;
-  transform: scale(1.2);
+  background: #ffd8d8;
+  transform: translateY(-1px);
 }
 
-
+footer {
   text-align: center;
   margin-top: 30px;
   padding: 20px;
